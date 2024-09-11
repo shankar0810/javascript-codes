@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <p>Guess the 4-digit number:</p>
+        <div class="inputs">
+            <input type="number" id="guess1" min="1000" max="9999">
+            <input type="number" id="guess2" min="1000" max="9999">
+            <input type="number" id="guess3" min="1000" max="9999">
+        </div>
+        <button onclick="submitGuesses()">Submit Guesses</button>
+        <p id="message"></p>
+        <p>Score: <span id="score">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
